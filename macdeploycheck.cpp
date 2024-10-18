@@ -59,7 +59,7 @@ int main(int argc, char **argv) {
         filepath.endsWith(".css") ||
         filepath.endsWith("CodeResources") ||
         filepath.endsWith("PkgInfo") ||
-        filepath.endsWith(".modulemap")
+        filepath.endsWith(".modulemap") ||
         filepath.endsWith(".xcprivacy")) {
       continue;
     }
