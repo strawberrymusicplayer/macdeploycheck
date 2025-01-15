@@ -60,7 +60,8 @@ int main(int argc, char **argv) {
         filepath.endsWith("CodeResources") ||
         filepath.endsWith("PkgInfo") ||
         filepath.endsWith(".modulemap") ||
-        filepath.endsWith(".xcprivacy")) {
+        filepath.endsWith(".xcprivacy") ||
+        filepath.endsWith("Sparkle")) {
       continue;
     }
 
